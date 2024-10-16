@@ -33,3 +33,6 @@ venv
 /src/server/plugins/*
 !/src/server/plugins/rh_*
 !/src/server/plugins/README.md
+
+#user define
+*.DS_Store

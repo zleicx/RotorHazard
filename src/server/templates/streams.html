@@ -158,6 +158,9 @@
 			<ul>
 				{% for node in range(num_nodes) %}
 					<li><a href="/stream/node/{{node + 1}}">{{ __("Node overlay") }} {{node + 1}}</a></li>
+
+					<li><a href="/stream/ol/dds/node/{{node + 1}}">dds {{ __("Node overlay") }} {{node + 1}}</a></li>
+					<li><a href="/stream/ol/lcdr/node/{{node + 1}}">L1cardo {{ __("Node overlay") }} {{node + 1}}</a></li>
 				{% endfor %}
 			</ul>
 
